@@ -1,0 +1,87 @@
+body {
+  font-family: Poppins;
+}
+
+h1 {
+  font-size: calc(1.35rem + 1.2vw);
+  color: #333333;
+  line-height: 1.3;
+  font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    font-size: 2.25rem;
+  }
+}
+
+label {
+  font-size: 0.875rem;
+}
+
+.form-control {
+  max-width: 300px;
+  background-color: #f2f2f2;
+  border: none;
+}
+
+.form-control:focus {
+  background-color: #f2f2f2;
+}
+
+.btn-primary {
+  background-color: #2d9cdb;
+  border-color: #2d9cdb;
+}
+
+p {
+  font-size: 1.125rem;
+  color: #4f4f4f;
+}
+
+p.color__primary {
+  color: #2d9cdb;
+}
+
+.note {
+  font-size: 0.875rem;
+}
+
+.bg-primary {
+  background-color: #2d9cdb;
+}
+
+.material-icons {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+}
+
+.icon {
+  font-size: 42px;
+  width: 67px;
+  height: 67px;
+  border-radius: 15px;
+}
+
+.snsicon {
+  font-size: 21px;
+  width: 24px;
+  height: 24px;
+}
+
+.card {
+  border: none;
+}
+
+.card:hover {
+  -webkit-box-shadow: 0 10px 25px 15px rgba(0, 0, 0, 0.5);
+          box-shadow: 0 10px 25px 15px rgba(0, 0, 0, 0.5);
+}

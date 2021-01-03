@@ -1,0 +1,76 @@
+@import "../node_modules/rfs/scss";
+$primary-color: #2d9cdb;
+$grey-1: #333333;
+$grey-2: #4f4f4f;
+$grey-3: #828282;
+$grey-4: #bdbdbd;
+$grey-6: #f2f2f2;
+$orange: #eb5757;
+
+body {
+	font-family: Poppins;
+}
+h1 {
+	@include font-size(36px);
+	color: $grey-1;
+	line-height: 1.3;
+	font-weight: bold;
+}
+label {
+	@include font-size(14px);
+}
+.form-control {
+	max-width: 300px;
+	background-color: $grey-6;
+	border: none;
+	&:focus {
+		background-color: $grey-6;
+	}
+}
+.btn-primary {
+	background-color: $primary-color;
+	border-color: $primary-color;
+}
+p {
+	@include font-size(18px);
+	color: $grey-2;
+	&.color__primary {
+		color: $primary-color;
+	}
+}
+.note {
+	@include font-size(14px);
+}
+.bg-primary {
+	background-color: $primary-color;
+}
+.material-icons {
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.icon {
+	font-size: 42px;
+	width: 67px;
+	height: 67px;
+	border-radius: 15px;
+}
+
+.snsicon {
+	font-size: 21px;
+	width: 24px;
+	height: 24px;
+}
+
+.card {
+	border: none;
+	&:hover {
+		@extend shadow;
+		@extend p-3;
+		@extend mb-5;
+		@extend bg-white;
+		@extend rounded;
+	}
+}
